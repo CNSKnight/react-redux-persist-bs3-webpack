@@ -1,0 +1,49 @@
+.contacts .banner {
+    margin-left: 1em;
+}
+.contacts {
+    color: #828282;
+    font-size: 92%;
+}
+.highlight {
+    color: rgb(75, 169, 223);
+}
+th {
+    font-weight: normal;
+}
+tr span.glyphicon {
+    font-size: 1.2em;
+    color: rgb(191, 191, 191);
+}
+tr span.glyphicon-check, tr span.glyphicon-plus {
+    color: yellowgreen;
+}
+tr td.contentEditable {
+padding:0;
+}
+span[data-name] {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    line-height: 1.5em;
+}
+.contacts .table > thead > tr > th {
+    padding: 16px;
+}
+.contacts .table tr > td:first-child,
+.contacts .table tr > td:last-child {
+    text-align:center;
+    vertical-align:middle;
+    cursor: pointer;
+}
+.contacts .table > thead > tr > td:not(:first-child):not(:last-child) {
+    padding: 4px;
+}
+.contacts .table > thead > tr > td:not(:first-child):not(:last-child) span {
+    padding: .5em;
+    background-color: rgba(75, 169, 223, .1);
+    background-clip: padding-box;
+}
+.contacts .table > tbody > tr > td {
+    padding: 10px;
+}
